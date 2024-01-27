@@ -1,0 +1,62 @@
+    {
+        "name": "root",
+        "type": "folder",
+        "description": "Source files for project",
+        "children": [
+            {
+                "name": "src",
+                "type": "folder",
+                "description": "Source files for project",
+                "children": [
+                    {
+                        "name": "site",
+                        "type": "file",
+                        "description": "Your site's theme",
+                        "children": []
+                    },
+                    {
+                        "name": "themes",
+                        "type": "folder",
+                        "description": "Packaged theme files",
+                        "children": [
+                            {
+                                "name": "default",
+                                "type": "file",
+                                "description": "Default packaged theme",
+                                "children": []
+                            },
+                            {
+                                "name": "my_theme",
+                                "type": "file",
+                                "description": "Packaged themes are also available in this folder",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "theme.config",
+                        "type": "file",
+                        "description": "Config file for setting packaged themes"
+                    }
+                ]
+            },
+            {
+                "name": "dist",
+                "type": "folder",
+                "description": "Compiled CSS and JS files",
+                "children": [
+                    {
+                        "name": "components",
+                        "type": "file",
+                        "description": "Individual component CSS and JS",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "semantic.json",
+                "type": "file",
+                "description": "Contains build settings for gulp"
+            }
+        ]
+    }
